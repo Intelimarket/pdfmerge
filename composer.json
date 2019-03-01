@@ -4,7 +4,7 @@
   "description": "Ferramenta para Juntar arquivos PDF em um só",
   "type": "library",
   "keywords": ["pdf", "fpdf", "merge"],
-  "license": "GNU Lesser General Public License v3.0",
+  "license": ["MIT"],
   "authors": [
     {
       "name": "Idealize Tecnologia",
