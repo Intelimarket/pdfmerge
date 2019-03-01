@@ -538,8 +538,26 @@ class PdfMerge{
     /*                      PUBLIC
     /**************************************************/
     
-    public function add( $filename ){
-        $f = @fopen($filename, 'rb');
+    public function addFromFile($fileName){
+        
+        $f = @fopen($fileName, 'rb');
+        
+        $this->add($f);
+        
+    }
+    
+    public function addFromContent($content){
+        
+        $f = tmpfile();
+        
+        fwrite($f,$content);
+        
+        $this->add($f);
+        
+    }
+    
+    private function add( $f ){
+        
         if (!$f) {
             $this->error('impossible d\'ouvrir le fichier');
         }
