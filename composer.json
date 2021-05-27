@@ -1,5 +1,5 @@
 {
-  "name": "idealizetecnologia/pdfmerge",
+  "name": "intelimarket/pdfmerge",
   "version": "1.0",
   "description": "Ferramenta para Juntar arquivos PDF em um só",
   "type": "library",
@@ -7,9 +7,9 @@
   "license": ["MIT"],
   "authors": [
     {
-      "name": "Idealize Tecnologia",
-      "email": "desenvolvimento@idealizetecnologia.com.br",
-      "homepage": "https://github.com/idealizetecnologia/pdfmerge"
+      "name": "Dilnei Soethe Spancerski",
+      "email": "dilnei.soethe@gmail.com",
+      "homepage": "https://www.intelimarket.com.br"
     }
   ],
   "autoload": {
